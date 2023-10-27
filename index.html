@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regex</title>
+  </head>
+  <body>
+    <form id="formPayment">
+      <label for="fullName">Teljes név: </label>
+      <input type="text" name="fullName" id="fullName"><br><br>
+  
+      <label for="country">Ország: </label>
+      <input type="text" name="country" id="country"><br><br>
+  
+      <label for="city">Város: </label>
+      <input type="text" name="city" id="city"><br><br>
+  
+      <label for="street">Utca, házszám: </label>
+      <input type="text" name="street" id="street"><br><br>
+  
+      <label for="postcode">Irányítószám: </label>
+      <input type="text" name="postcode" id="postcode"><br><br>
+  
+      <label for="bankcardNumber">Bankkártya száma: </label>
+      <input type="text" name="bankcardNumber" id="bankcardNumber"><br><br>
+  
+      <label for="checkcode">Ellenőrző kód: </label>
+      <input type="text" name="checkcode" id="checkcode"><br><br>
+  
+      <label for="bankcardName">Bankkártyára írt név: </label>
+      <input type="text" name="bankcardName" id="bankcardName"><br><br>
+  
+      <input type="submit" value="Fizetés"><br><br>
+    </form>
+    
+    <p id="errorMessage"></p>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
